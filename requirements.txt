@@ -8,3 +8,4 @@ scikit-learn
 requests
 tqdm
 dotenv
+imblearn
