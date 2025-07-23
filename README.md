@@ -6,17 +6,6 @@ The analysis started as a multi-class problem (White win, Black win, Draw) but p
 
 ---
 
-## 📋 Table of Contents
-* [Key Findings](#key-findings)
-* [Dataset](#dataset)
-* [Methodology](#methodology)
-* [Model Performance](#model-performance)
-* [How to Run](#how-to-run)
-* [Project Structure](#project-structure)
-* [Dependencies](#dependencies)
-
----
-
 ## 🎯 Key Findings
 
 * **Dominance of Rating Difference**: The single most predictive feature is the difference in Elo ratings between the two players. A simple baseline model that predicts the higher-rated player will win achieves **64.3% accuracy**.
