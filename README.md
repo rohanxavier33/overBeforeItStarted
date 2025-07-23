@@ -23,9 +23,6 @@ The analysis started as a multi-class problem (White win, Black win, Draw) but p
 * **Marginal ML Improvement**: The best-performing machine learning model, a tuned Random Forest, achieved **65.3% accuracy**. This is only a 1% improvement over the simple baseline.
 * **Limited Value of Other Metadata**: Features like opening choice (`opening_eco`), time controls (`increment_code`), and opening depth (`opening_ply`) provided very little additional predictive power for the win/loss outcome.
 
-![Feature Importance Plot](https://i.imgur.com/u191d4e.png)
-*This chart shows the top 20 most important features from the Random Forest model, with `rating_difference` being significantly more influential than any other feature.*
-
 ---
 
 ## 💾 Dataset
